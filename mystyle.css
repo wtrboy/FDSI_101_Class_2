@@ -1,0 +1,74 @@
+/* GLOBAL STYLE */
+
+body
+{
+    font-family: 'Krub', sans-serif;
+}
+
+p
+{
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+h1, h2, h3 
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 30px;
+    color:rgb(250, 143, 3);
+}
+
+h2
+{
+    font-size: 30px;
+    background-color: rgb(50, 205, 133);
+}
+
+h3
+{
+    font-size: 30px;
+    color:#03818a;
+}
+
+/* HEADER */
+
+header
+{
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+    background-size: contain;
+    background-position: center;
+    color:rgb(250, 143, 3);
+    height:300px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.icon
+{
+    display:flex;
+    align-items: center; /* vertical align */
+    justify-content: space-evenly; /* horizontal align */
+    width: 60px;
+    height: 60px;
+    background-color: #ffe187; 
+    border-radius: 50%;   
+}
+
+.icon i
+{
+    font-size: 30px;
+    color:#03818a;
+}
+
+main
+{
+    text-align: center;
+}
